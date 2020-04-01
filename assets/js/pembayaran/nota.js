@@ -1,0 +1,3 @@
+function cetakNota() {
+	window.print();
+}

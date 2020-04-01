@@ -1,0 +1,358 @@
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	text-align: justify;
+	font-size: 1em;
+}
+
+:root {
+	--bggradient: linear-gradient(to bottom, #303952, white);
+}
+
+.header .navbar {
+	background-color: white !important;
+}
+
+.header .instagram {
+	font-size: 12px;
+	color: #CF2E7E;
+}
+
+.header .facebook {
+	font-size: 12px;
+	color: #4267B2;
+}
+
+.header .whatsapp {
+	font-size: 12px;
+	color: #44C455;
+}
+
+.header .twitter {
+	font-size: 12px;
+	color: #1AB2E8;
+}
+
+.navbar {
+	background-color: #303952 !important;
+}
+
+.nav-link {
+	font-size: 16px;
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover {
+	color: #f19066 !important;
+}
+
+.mdl {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	font-size: 16px;
+	border-radius: 10px;
+	width: 30%;
+}
+
+.mdl:hover {
+	background-color: #303952 !important;
+	color: #f19066 !important;
+}
+
+.dropdown .user {
+	width: 30%;
+	font-size: 16px;
+	text-shadow: 1.2px 1.2px 1.2px rgba(0, 0, 0, 0.8);
+	color: #303952 !important;
+}
+
+.dropdown-menu .dropdown-item {
+	color: #303952 !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+	color: #f19066 !important;
+	background-color: #303952 !important;
+	opacity: 0.5;
+}
+
+.navbar-toggler {
+	background-color: white;
+}
+
+.logo img {
+	padding-bottom: 5%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+	width: 300px;
+	border-style: medium;
+	border-width: 2px;
+	border-color: black;
+}
+
+p {
+	margin: auto;
+	font-size: 14px;
+}
+
+.section-one img {
+	width: 350px;
+}
+
+.section-three img {
+	width: 40%;
+}
+
+.section-four {
+	background-color: #3C006B;
+	color: white;
+}
+
+.section-four ul li {
+	padding-bottom: 1%;
+}
+
+.section-five i {
+	margin-top: 3%;
+	font-size: 120px;
+}
+
+.section-five p {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 3%;
+}
+
+.section-six h5 {
+	font-style: italic;
+}
+
+
+.paralax {
+	background-image: url('../../img/paralax.jpg');
+	background-attachment: fixed;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	z-index: 1;
+}
+
+.about p {}
+
+.button {
+	border-radius: 400px;
+}
+
+.section-seven i {
+	font-size: 30px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.section-seven .perlengkapan img {
+	margin-bottom: 3%;
+	position: relative;
+}
+
+.section-seven .perlengkapan span {
+	position: absolute;
+	color: black;
+	font-size: 18px;
+	opacity: 0;
+	bottom: 15px;
+	line-height: 80px;
+	display: block;
+	width: 510px;
+	height: 80px;
+	background-color: rgba(200, 200, 200, 0.247);
+	text-shadow: 1px 1px 1px #000;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+.section-seven .perlengkapan a:hover span {
+	opacity: 1;
+}
+
+.section-eight i {
+	font-size: 30px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+.section-eight .partner img {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+footer ul li {
+	list-style: none;
+}
+
+footer ul li a {
+	font-size: 16px;
+	color: white;
+}
+
+footer ul li a:hover {
+	color: #1AB2E8;
+}
+
+footer .instagram {
+	font-size: 12px;
+	color: #CF2E7E;
+}
+
+footer .facebook {
+	font-size: 12px;
+	color: #4267B2;
+}
+
+footer .whatsapp {
+	font-size: 12px;
+	color: #44C455;
+}
+
+footer .twitter {
+	font-size: 12px;
+	color: #1AB2E8;
+}
+
+footer .facebook:hover,
+footer .twitter:hover {
+	color: white;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+
+
+	.nav-link {
+		font-size: 18px;
+		text-transform: uppercase;
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	}
+
+	.nav-link:hover {
+		color: #f19066 !important;
+		background-color: #303952 !important;
+	}
+
+	.mdl {
+		text-transform: uppercase;
+		border-radius: 10px;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.mdl:hover {
+		color: #f19066 !important;
+	}
+
+	.dropdown .user {
+		text-transform: uppercase;
+		border-radius: 10px;
+		width: 100%;
+		font-size: 18px;
+		text-shadow: 1.2px 1.2px 1.2px rgba(0, 0, 0, 0.8);
+		color: #303952 !important;
+	}
+
+	.dropdown .user:hover {
+		color: #f19066 !important;
+		background-color: #303952 !important;
+	}
+
+	.dropdown-menu .dropdown-item {
+		color: #303952 !important;
+	}
+
+	.dropdown-menu .dropdown-item:hover {
+		color: #f19066 !important;
+		background-color: #303952 !important;
+		opacity: 0.5;
+	}
+
+	.navbar-toggler {
+		background-color: white;
+	}
+
+	.header .instagram {
+		font-size: 18px;
+		color: #CF2E7E;
+	}
+
+	.header .facebook {
+		font-size: 18px;
+		color: #4267B2;
+	}
+
+	.header .whatsapp {
+		font-size: 18px;
+		color: #44C455;
+	}
+
+	.header .twitter {
+		font-size: 18px;
+		color: #1AB2E8;
+	}
+
+	.section-one img {
+		width: 60%;
+	}
+
+	p {
+		margin: auto;
+		font-size: 16px;
+	}
+
+	.section-seven .perlengkapan img {
+		margin-bottom: 3%;
+		position: relative;
+	}
+
+	.section-seven .perlengkapan span {
+		position: absolute;
+		color: black;
+		bottom: 20px;
+		opacity: 0;
+		line-height: 80px;
+		display: block;
+		width: 350px;
+		height: 80px;
+		background-color: rgba(200, 200, 200, 0.247);
+		text-shadow: 1px 1px 1px #000;
+		transition: 0.5s;
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+
+	.section-seven .perlengkapan a:hover span {
+		opacity: 1;
+	}
+
+}
